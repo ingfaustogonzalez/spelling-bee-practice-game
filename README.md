@@ -13,47 +13,12 @@ The system uses a SQLite3 database to store words along with their corresponding
 
 The interface includes a sidebar navigation system with four main features:
 
-<p align="center">
-  <img src="assets/Screenshot_01_main_page.png" width="600"><br>
-  <em>Main application interface displaying navigation sidebar and core features.</em>
-</p>
-
 ### 1. Spelling Game
 Users select a difficulty level and participate in a timed spelling session. Each word is pronounced aloud along with a context phrase, and the user has 30 seconds to input the correct spelling.
 
 The evaluation requires full accuracy, including proper use of French accents (e.g., â, é, è, ê, î, ç), ensuring precise linguistic correctness. Unanswered words are marked as timeouts.
 
 At the end of the session, results are displayed in a summary table showing correct and incorrect answers.
-
-<p align="center">
-  <img src="assets/Screenshot_02_create_new_user.png" width="600"><br>
-  <em>User registration interface for creating a new player profile.</em>
-</p>
-
-<p align="center">
-  <img src="assets/Screenshot_03_start_new_session.png" width="600"><br>
-  <em>Screen where the user selects difficulty level and starts a new spelling session.</em>
-</p>
-
-<p align="center">
-  <img src="assets/Screenshot_04_submitting_an_answer.png" width="600"><br>
-  <em>Active gameplay showing the user entering a spelling answer within the time limit.</em>
-</p>
-
-<p align="center">
-  <img src="assets/Screenshot_05_good_answer.png" width="600"><br>
-  <em>Feedback displayed when the user provides a correct answer.</em>
-</p>
-
-<p align="center">
-  <img src="assets/Screenshot_06_bad_answer.png" width="600"><br>
-  <em>Feedback displayed when the user provides an incorrect answer.</em>
-</p>
-
-<p align="center">
-  <img src="assets/Screenshot_07_results_table.png" width="600"><br>
-  <em>Summary table displaying all correct and incorrect answers at the end of a session.</em>
-</p>
 
 ---
 
@@ -67,55 +32,15 @@ Provides detailed insights into user performance across sessions, including:
 
 Data is visualized through interactive graphs and tables.
 
-<p align="center">
-  <img src="assets/Screenshot_08_performance_analysis.png" width="600"><br>
-  <em>Performance analysis dashboard showing user statistics and trends.</em>
-</p>
-
-<p align="center">
-  <img src="assets/Screenshot_09_performance_analysis.png" width="600"><br>
-  <em>Detailed view of performance metrics including accuracy and response time.</em>
-</p>
-
-<p align="center">
-  <img src="assets/Screenshot_10_performance_analysis.png" width="600"><br>
-  <em>Visualization of user progress across multiple sessions.</em>
-</p>
-
-<p align="center">
-  <img src="assets/Screenshot_11_performance_analysis.png" width="600"><br>
-  <em>Analysis of most frequently misspelled words.</em>
-</p>
-
-<p align="center">
-  <img src="assets/Screenshot_12_performance_analysis.png" width="600"><br>
-  <em>Graphical representation of performance trends over time.</em>
-</p>
-
-<p align="center">
-  <img src="assets/Screenshot_13_performance_analysis.png" width="600"><br>
-  <em>Additional performance insights displayed through charts and tables.</em>
-</p>
-
 ---
 
 ### 3. Word Search
 Allows users to search for specific words in the database and view their associated context phrases, reinforcing learning outside of gameplay.
 
-<p align="center">
-  <img src="assets/Screenshot_14_word_search.png" width="600"><br>
-  <em>Word search feature allowing users to find words and view their context phrases.</em>
-</p>
-
 ---
 
 ### 4. Settings / Parameters
 Enables customization of the number of words per session, allowing flexibility based on the user’s learning pace.
-
-<p align="center">
-  <img src="assets/Screenshot_15_settings_parameters.png" width="600"><br>
-  <em>Settings page where users can configure session parameters such as number of words.</em>
-</p>
 
 ---
 
@@ -154,6 +79,111 @@ streamlit run game.py    # Starts the application
 ⋮
 deactivate               # When finished running the application, this command ends with the Virtual Environment
 ```
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Main Interface
+
+<p align="center">
+  <img src="assets/Screenshot_01_main_page.png" width="600"><br>
+  <em>Main application interface displaying navigation sidebar and core features.</em>
+</p>
+
+---
+
+### 👤 User Management
+
+<p align="center">
+  <img src="assets/Screenshot_02_create_new_user.png" width="600"><br>
+  <em>User registration interface for creating a new player profile.</em>
+</p>
+
+---
+
+### 🎮 Gameplay
+
+<p align="center">
+  <img src="assets/Screenshot_03_start_new_session.png" width="600"><br>
+  <em>Screen where the user selects difficulty level and starts a new spelling session.</em>
+</p>
+
+<p align="center">
+  <img src="assets/Screenshot_04_submitting_an_answer.png" width="600"><br>
+  <em>Active gameplay showing the user entering a spelling answer within the time limit.</em>
+</p>
+
+<p align="center">
+  <img src="assets/Screenshot_05_good_answer.png" width="600"><br>
+  <em>Feedback displayed when the user provides a correct answer.</em>
+</p>
+
+<p align="center">
+  <img src="assets/Screenshot_06_bad_answer.png" width="600"><br>
+  <em>Feedback displayed when the user provides an incorrect answer.</em>
+</p>
+
+---
+
+### 📊 Results
+
+<p align="center">
+  <img src="assets/Screenshot_07_results_table.png" width="600"><br>
+  <em>Summary table displaying all correct and incorrect answers at the end of a session.</em>
+</p>
+
+---
+
+### 📈 Performance Analysis
+
+<p align="center">
+  <img src="assets/Screenshot_08_performance_analysis.png" width="600"><br>
+  <em>Performance analysis dashboard showing user statistics and trends.</em>
+</p>
+
+<p align="center">
+  <img src="assets/Screenshot_09_performance_analysis.png" width="600"><br>
+  <em>Detailed view of performance metrics including accuracy and response time.</em>
+</p>
+
+<p align="center">
+  <img src="assets/Screenshot_10_performance_analysis.png" width="600"><br>
+  <em>Visualization of user progress across multiple sessions.</em>
+</p>
+
+<p align="center">
+  <img src="assets/Screenshot_11_performance_analysis.png" width="600"><br>
+  <em>Analysis of most frequently misspelled words.</em>
+</p>
+
+<p align="center">
+  <img src="assets/Screenshot_12_performance_analysis.png" width="600"><br>
+  <em>Graphical representation of performance trends over time.</em>
+</p>
+
+<p align="center">
+  <img src="assets/Screenshot_13_performance_analysis.png" width="600"><br>
+  <em>Additional performance insights displayed through charts and tables.</em>
+</p>
+
+---
+
+### 🔍 Word Search
+
+<p align="center">
+  <img src="assets/Screenshot_14_word_search.png" width="600"><br>
+  <em>Word search feature allowing users to find words and view their context phrases.</em>
+</p>
+
+---
+
+### ⚙️ Settings
+
+<p align="center">
+  <img src="assets/Screenshot_15_settings_parameters.png" width="600"><br>
+  <em>Settings page where users can configure session parameters such as number of words.</em>
+</p>
 
 ---
 
