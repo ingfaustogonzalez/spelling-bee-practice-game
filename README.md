@@ -20,7 +20,11 @@ The evaluation requires full accuracy, including proper use of French accents (e
 
 At the end of the session, results are displayed in a summary table showing correct and incorrect answers.
 
-![Main application interface displaying navigation sidebar and core features](assets/Screenshot_01_main_page.png)
+<p align="center">
+  <img src="assets/Screenshot_01_main_page.png" width="600"><br>
+  <em>Main application interface displaying navigation sidebar and core features.</em>
+</p>
+
 
 ---
 
