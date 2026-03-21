@@ -72,6 +72,31 @@ Data is visualized through interactive graphs and tables.
   <em>Performance analysis dashboard showing user statistics and trends.</em>
 </p>
 
+<p align="center">
+  <img src="assets/Screenshot_09_performance_analysis.png" width="600"><br>
+  <em>Detailed view of performance metrics including accuracy and response time.</em>
+</p>
+
+<p align="center">
+  <img src="assets/Screenshot_10_performance_analysis.png" width="600"><br>
+  <em>Visualization of user progress across multiple sessions.</em>
+</p>
+
+<p align="center">
+  <img src="assets/Screenshot_11_performance_analysis.png" width="600"><br>
+  <em>Analysis of most frequently misspelled words.</em>
+</p>
+
+<p align="center">
+  <img src="assets/Screenshot_12_performance_analysis.png" width="600"><br>
+  <em>Graphical representation of performance trends over time.</em>
+</p>
+
+<p align="center">
+  <img src="assets/Screenshot_13_performance_analysis.png" width="600"><br>
+  <em>Additional performance insights displayed through charts and tables.</em>
+</p>
+
 ---
 
 ### 3. Word Search
