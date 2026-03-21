@@ -1,4 +1,5 @@
 # 🐝🇫🇷 Jeu d'Épellation en Français
+**Spelling Bee Practice Game in French**
 
 ## 📖 Description
 
