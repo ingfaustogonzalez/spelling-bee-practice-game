@@ -67,6 +67,11 @@ Provides detailed insights into user performance across sessions, including:
 
 Data is visualized through interactive graphs and tables.
 
+<p align="center">
+  <img src="assets/Screenshot_08_performance_analysis.png" width="600"><br>
+  <em>Performance analysis dashboard showing user statistics and trends.</em>
+</p>
+
 ---
 
 ### 3. Word Search
