@@ -20,6 +20,8 @@ The evaluation requires full accuracy, including proper use of French accents (e
 
 At the end of the session, results are displayed in a summary table showing correct and incorrect answers.
 
+![Create a new user](assets/Screenshot_01_create_new_user.png)
+
 ---
 
 ### 2. Performance Analysis
