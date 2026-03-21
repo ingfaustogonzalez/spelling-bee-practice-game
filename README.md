@@ -13,7 +13,7 @@ The system uses a SQLite3 database to store words along with their corresponding
 
 The interface includes a sidebar navigation system with four main features:
 
-### 1️⃣ Spelling Game
+### 1. Spelling Game
 Users select a difficulty level and participate in a timed spelling session. Each word is pronounced aloud along with a context phrase, and the user has 30 seconds to input the correct spelling.
 
 The evaluation requires full accuracy, including proper use of French accents (e.g., â, é, è, ê, î, ç), ensuring precise linguistic correctness. Unanswered words are marked as timeouts.
@@ -22,7 +22,7 @@ At the end of the session, results are displayed in a summary table showing corr
 
 ---
 
-### 2️⃣ Performance Analysis
+### 2. Performance Analysis
 Provides detailed insights into user performance across sessions, including:
 
 - Most frequently misspelled words  
@@ -34,12 +34,12 @@ Data is visualized through interactive graphs and tables.
 
 ---
 
-### 3️⃣ Word Search
+### 3. Word Search
 Allows users to search for specific words in the database and view their associated context phrases, reinforcing learning outside of gameplay.
 
 ---
 
-### 4️⃣ Settings / Parameters
+### 4. Settings / Parameters
 Enables customization of the number of words per session, allowing flexibility based on the user’s learning pace.
 
 ---
@@ -73,5 +73,14 @@ This application was specifically created to support preparation for a French sp
 ## ▶️ How to Run
 
 ```bash
-pip install streamlit
-python -m streamlit run app.py
+pipenv shell             # Activates the Virtual Environment
+pipenv sync              # Installs dependencies from Pipfile
+streamlit run game.py    # Starts the application
+⋮
+deactivate               # When finished running the application, this command ends with the Virtual Environment
+```
+
+---
+
+# 📬 Author
+Fausto Gonzalez
