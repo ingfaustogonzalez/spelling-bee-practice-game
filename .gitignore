@@ -1,0 +1,41 @@
+# Streamlit secrets file
+.streamlit/secrets.toml
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# IDE specific files (e.g. VS Code, PyCharm)
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Pip-generated files
+pip-log.txt
+pip-delete-this-arg.txt
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Ignore any .txt file
+*.txt
+
+# Ignore backups directory
+/Respaldos
+
+
+# Specific data files you might be using locally but not in your repo
+# e.g., uber-raw-data-sep14.csv
+# **/uber-raw-data-sep14.csv
