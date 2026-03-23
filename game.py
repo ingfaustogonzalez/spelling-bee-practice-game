@@ -148,7 +148,18 @@ def get_words_with_errors(user_id):
         results = cursor.fetchall()
     return results
 
+
 def get_due_words(level_id, user_id):
+    """
+    Returns a list of words to be reviewed.
+
+    Parameters:
+    level_id (int): Level representing the difficulty of the word.
+    user_id (int): User.
+
+    Returns:
+    (list): Words that are due for review.
+    """
     with sqlite3.connect(DB_FILE) as conn:
         cursor = conn.cursor()
         query = """
@@ -169,6 +180,21 @@ def get_due_words(level_id, user_id):
     return results
 
 def select_quiz_words(words_attempts, num_selected_words):
+    """
+    Returns a list with the words that are going to be reviewed in this session.
+
+    Parameters:
+    words_attempts (list):      A list of words, where each item looks like a tuple/list
+                                and index 3 (w[3]) represents the number of attempts or mistakes.
+    num_selected_words (int):   Number of words to be selected for the quiz.
+
+    Returns:
+    (list): Returns a list of words selected for this session. Words with the lowest attempt count
+            (i.e., those the user struggles with) are prioritized, and the remaining words are filled
+            in randomly. This results in a quiz composed of 80% weak words and 20% random variety.
+            The returned list is shuffled.
+    """
+    
     total_words = len(words_attempts)
     if num_selected_words >= total_words:
         return words_attempts.copy()
@@ -200,6 +226,27 @@ def select_quiz_words(words_attempts, num_selected_words):
     return selected_words
 
 def update_sm2_schedule(user_id, word_id, quality):
+    """
+    This function is based on the SM‑2 spaced repetition update function.
+    This is the algorithm used by Anki, SuperMemo, and many SRS systems.
+    This function updates the spaced‑repetition schedule for a given user and word
+    based on the quality score (0–5) the user gave after reviewing the word.
+    
+    This function updates the spaced‑repetition schedule for a given user and word
+    based on the quality score (0–5) the user gave after reviewing the word.
+    
+    Returns:
+    (void)
+    
+    It updates:
+    * repetition → how many successful reviews in a row
+    * ease_factor → how easy the word is for the user
+    * interval → how many days until the next review
+    * next_review → the actual date when the word should appear again
+
+    All of this is stored in the table user_word_state.
+    """
+    
     with sqlite3.connect(DB_FILE) as conn:
         cursor = conn.cursor()
         cursor.execute("""
