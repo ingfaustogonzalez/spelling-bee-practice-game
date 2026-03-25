@@ -1,10 +1,10 @@
 # 🐝🇫🇷 Jeu d'Épellation en Français
 
-Spelling Bee Practice Game in French
+French Spelling Bee Practice Game
 
 ## 📖 Description
 
-This project is a French web-based Spelling Bee Practice Game developed entirely independently using Python and the Streamlit framework. It was created as a personalized educational tool to help prepare for a real French spelling bee competition. The application played a key role in improving spelling performance and contributed to successful results in the competition.
+An interactive **French web-based Spelling Bee Practice Game** developed entirely independently using Python and the Streamlit framework. It was created as a personalized learning tool to help prepare for a real French spelling bee competition, through audio, repetition, and adaptative difficulty. The application played a key role in improving spelling performance and contributed to successful results in the competition.
 
 The system uses a SQLite3 database to store words along with their corresponding context phrases and difficulty levels (**Easy, Medium, Hard**). It supports multiple users, including an admin account, allowing personalized tracking of progress and performance over time.
 
@@ -51,11 +51,18 @@ Enables customization of the number of words per session, allowing flexibility b
 
 ## 🧠 Project Highlights
 
-- Developed entirely independently from concept to deployment  
-- Combines backend data management with an interactive web-based GUI  
-- Uses SQLite3 for persistent data storage  
-- Implements real-time feedback and performance tracking  
-- Applies software development to solve a real-world educational problem  
+- 🚀 Developed entirely independently from concept to deployment
+- 🎓 Applies software development to solve a real-world educational problem
+- 🌐 Combines backend data management with an interactive web-based GUI
+- 📊 Uses SQLite3 for persistent data storage and performance tracking
+- 🔊 Audio pronunciation powered by Google Text-to-Speech (gTTS)
+- 🧩 Adaptive word selection
+  - Prioritizes words the user struggles with
+  - Balanced mix: 80% weak words / 20% random
+- ⏱️ Timed responses (30 seconds per word)
+- 👤 User-based sessions for personalized tracking
+- 🎯 Level-based word selection for progressive learning
+- 💬 Fully in French with real-time feedback (Correct / Incorrect)
 
 ---
 
@@ -70,7 +77,7 @@ This application was specifically created to support preparation for a French sp
 - Python  
 - Streamlit  
 - SQLite3  
-- Text-to-Speech (TTS)  
+- gTTS (Google Text-to-Speech)
 - Data Visualization (charts & tables)  
 
 ---
