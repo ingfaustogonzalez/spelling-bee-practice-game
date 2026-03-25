@@ -169,6 +169,25 @@ deactivate               # When finished running the application, this command e
 
 ---
 
+## 🤝 Attribution
+
+If you use or adapt this project, I would greatly appreciate a reference to the original repository or author:
+
+**Fausto Gonzalez**  
+Jeu d'Épellation en Français
+
+GitHub: <https://github.com/ingfaustogonzalez/spelling-bee-practice-game>
+
+This is not required by the license, but it helps support the project and its future development 🙏
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
 ## 📬 Author
 
 Fausto Gonzalez
