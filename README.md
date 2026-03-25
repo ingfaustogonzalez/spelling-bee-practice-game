@@ -171,7 +171,7 @@ deactivate               # When finished running the application, this command e
 
 ## 🤝 Attribution
 
-If you use or adapt this project, I would greatly appreciate a reference to the original repository or author:
+If you use or adapt this project, I would greatly appreciate a reference to the original repository and author:
 
 **Fausto Gonzalez**  
 Jeu d'Épellation en Français
